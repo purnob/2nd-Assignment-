@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto Serif', serif;
+    margin:0;
+}
+
+.announcement{
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+.announcement p{
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    display: block;
+}
+.logo img{
+    width: 200px;
+    height:50px
+}
